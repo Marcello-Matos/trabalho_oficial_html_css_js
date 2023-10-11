@@ -1,0 +1,381 @@
+
+
+
+/* Marcello da Silva Matos
+    RU: 4259054 */
+
+
+
+/* Estilos para a imagem */
+.foto {
+    max-width: 100%; /* A imagem ocupará 100% da largura do contêiner pai */
+    height: auto; /* A altura ajustará automaticamente para manter a proporção */
+}
+
+.menu {
+    width: 10px;
+}
+
+/* Estilos para a imagem do menu */
+.menu-image {
+    width: 30px; /* Defina a largura desejada */
+    height: 30px; /* Defina a altura desejada */
+}
+
+/* Estilos para a div que envolve a imagem do menu */
+menu {
+    margin-top: 40px; /* Ajuste para a margem superior desejada */
+    margin-right: 30px; /* Ajuste para a margem direita desejada */
+   margin-left: 40px;
+   cursor: pointer;
+   
+}
+
+menu {
+    display: none;
+}
+/* Altera a cor de fundo */
+body {
+    background-image: linear-gradient(to right,rgb(79, 77, 77), #101212, #131717, #050b0cbb);
+}
+/* Deixa o meu texto totalmente alinhado ao centro e formatado para todos os dispositivos */
+main {
+    background-color: white;
+    width: 900px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px #203b41;
+    padding: 20px;
+    margin: auto;
+    text-align: justify;
+    margin-top: 30px;
+    margin-top: -20px;
+    color: black;
+    text-shadow: 1px 1px 5px rgba(38, 12, 232, 0.786);
+
+}
+/* Centraliza o meu título */
+h1 {
+    text-align: center;
+    color: #5dacbe;
+    text-shadow: 1px 1px 2px rgba(36, 35, 35, 0.616);
+
+}
+/* Configurando os botões das opções */
+menu ul {
+    list-style-type: none;
+
+}
+
+menu  > ul > li > a {
+    text-decoration: none;
+    padding-left: 20px;
+    display: block;
+    
+    
+}
+
+span#burguer {
+    color: blue;
+    font-size: 50px;
+    padding-left: 20px;
+    padding-top: 30px;
+    margin-left: -1px;
+    margin-top:
+   
+
+}
+
+span#burguer:hover {
+    color: rgb(18, 18, 65);
+    cursor: pointer;
+    
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+    margin: 15px;
+}
+/* para alinhar o ícone com o menu */
+menu > ul > li > a {
+    margin-top: -110px;
+    
+    
+}
+
+p {
+    margin-top: 70px;
+}
+
+/* BOTÃO 3D para meu site */
+
+menu  > ul > li > a {
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    padding: 16px 4px;
+    border: blue 3px solid;
+    border-radius: 16px;
+    box-shadow: inset 0 0 32px 0 blue, 0 0 32px 0 blue;
+    text-shadow: 0 0 8px hs(0 0% 100% / 0.3), 0 0 32px;
+    position: relative;
+        
+}
+/*reflexo do botão */
+
+menu  > ul > li > a::before {
+    content: '';
+    position: absolute;
+    top: 120%;
+    left: 0;
+    background: blue;
+    width: 100%;
+    height: 100%;
+    transform: perspective(64px) rotateX(40deg)scale(1,0.35);
+    filter: blur(64px);
+    opacity: 0.9;
+    pointer-events: none;
+
+}
+/* iluminar a parte da trás do botão */
+menu  > ul > li > a::after {
+    content: ' ';
+    position:absolute ;
+    top: 0;
+    bottom: 0;
+    left :  0;
+    right: 0;
+    box-shadow: 0 0 128px 32px blue;
+    opacity: 0;
+    background-color: blue;
+    z-index: -1;
+    transition: opacity 100ms linear;
+}
+/* aqui é o antes e o depois */
+menu>ul>li>a:hover::before,
+menu>ul>li>a:hover::after {
+    opacity: 1;
+}
+
+menu>ul>li>a:hover {
+    color: #31202b;
+    text-shadow: none;
+}
+
+
+
+/* VERIFICAR ESSE CÓDIGO COM MUITA ATENÇÃO
+
+@media (min-width: 600px) and (max-width: 1010px) {
+    menu  > ul > li > a {
+       
+            display: none;
+        
+
+        }
+    }
+/* Essas são as configurações do meu ícone das redes sociais */
+section#redes-sociais img  {
+    width: 50px;
+    margin: 40px;
+    border-radius: 60%;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0.404);
+    box-sizing: border-box;
+}
+
+section#redes-sociais  {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+}
+/* faz o alinhamento e deixa as letras próxima do logo */
+section#redes-sociais p {
+    margin-top: 30px;
+    margin-top: -20px;
+    color: white;
+    text-shadow: 1px 1px 5px rgba(18, 17, 17, 0.786);
+    
+}
+
+/* fazer com que os botões se movam ao passar com o mouse em cima e que afunda ao clicar*/
+section#redes-sociais img:hover {
+    border:2px solid rgba(255, 255, 255, 0.701);
+    transform: translate(-20px - 20px);
+    box-shadow: 5px 5px 20px;
+
+}
+/*foto exercito ordenadas */
+.exercito {
+    width: 400px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* PÁGINA DE CURSOS FORMATAÇÃO */
+
+section#redes-sociais-1 img  {
+    width: 50px;
+    margin: 40px;
+    border-radius: 60%;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0.404);
+    box-sizing: border-box;
+}
+
+section#redes-sociais-1  {
+    margin-top: 10px;
+    text-align: left; 
+    text-align: center; 
+    
+
+}
+/* faz o alinhamento e deixa as letras próxima do logo */
+section#redes-sociais-1 p {
+    margin-top: 30px;
+    margin-top: -20px;
+    color: black;
+    text-shadow: 1px 1px 5px rgba(38, 12, 232, 0.786);
+    
+}
+
+/* fazer com que os botões se movam ao passar com o mouse em cima e que afunda ao clicar*/
+section#redes-sociais-1 img:hover {
+    border:2px solid rgba(255, 255, 255, 0.701);
+    transform: translate(-20px - 20px);
+    box-shadow: 5px 5px 20px;
+}
+
+/*EXPERIÊNCIA PROFISSIONAL */
+
+section#redes-sociais-2 img  {
+    width: 50px;
+    margin: 40px;
+    border-radius: 60%;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0.404);
+    box-sizing: border-box;
+}
+
+section#redes-sociais-2  {
+    margin-top: 100px;
+    text-align: left; 
+ 
+    
+
+}
+/* faz o alinhamento e deixa as letras próxima do logo */
+section#redes-sociais-2 p {
+    margin-top: 30px;
+    margin-top: -20px;
+    color: black;
+    text-shadow: 1px 1px 5px rgba(38, 12, 232, 0.786);
+    
+}
+
+/* fazer com que os botões se movam ao passar com o mouse em cima e que afunda ao clicar*/
+section#redes-sociais-2 img:hover {
+    border:2px solid rgba(255, 255, 255, 0.701);
+    transform: translate(-20px - 20px);
+    box-shadow: 5px 5px 20px;
+}
+
+
+/*Formatando fotos e videos da área hobbie */
+
+.foto > img {
+    width: 700px;
+}
+
+.video-filho > h2{
+    margin-top: 80px;
+}
+
+
+/* FORMATANDO O FORMULÁRIO DO SITE DE CONTATOS */
+
+*{
+    font-family: Helvetica;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 1rem;
+
+}
+
+h1{
+    text-align: center;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 500px;
+    margin: 0 auto;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: white;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1.1rem;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: blue;
+    color: #fff;
+    font-size: 1.1rem;
+    cursor: pointer;
+
+}
+
+
+/*TORNAR O SITE RESPONSIVO */
+
+
+
+/* Para telas menores que 600px */
+@media (max-width: 600px) {
+    main {
+        width: 90%; /* Ajuste a largura do conteúdo principal para ocupar a largura da tela */
+        margin: auto;
+    
+    }
+    /* Outros ajustes de estilo para elementos em telas menores */
+}
+
+/* Para telas maiores que 1010px */
+@media (min-width: 1011px) {
+
+    /* Aplique estilos específicos para telas maiores aqui */
+}
+
+@media (min-width: 600px) and (max-width: 1010px) {
+    menu  > ul > li > a {
+       
+            display: none;
+        
+
+        }
+    }
+
+    
+
+#redes-sociais {
+    margin-top: 100px;
+
+}
