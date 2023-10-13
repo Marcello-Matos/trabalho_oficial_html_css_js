@@ -8,8 +8,8 @@
 
 /* Estilos para a imagem */
 .foto {
-    max-width: 100%; /* A imagem ocupará 100% da largura do contêiner pai */
-    height: auto; /* A altura ajustará automaticamente para manter a proporção */
+    max-width: 100%;
+    height: auto;
 }
 
 .menu {
@@ -18,14 +18,14 @@
 
 /* Estilos para a imagem do menu */
 .menu-image {
-    width: 30px; /* Defina a largura desejada */
-    height: 30px; /* Defina a altura desejada */
+    width: 30px; 
+    height: 30px;
 }
 
-/* Estilos para a div que envolve a imagem do menu */
+/* modelando para que envolva a imagem do menu */
 menu {
-    margin-top: 40px; /* Ajuste para a margem superior desejada */
-    margin-right: 30px; /* Ajuste para a margem direita desejada */
+    margin-top: 40px; 
+    margin-right: 30px; 
    margin-left: 40px;
    cursor: pointer;
    
@@ -34,7 +34,7 @@ menu {
 menu {
     display: none;
 }
-/* Altera a cor de fundo */
+/* Altera a cor de fundo com degradê */
 body {
     background-image: linear-gradient(to right,rgb(79, 77, 77), #101212, #131717, #050b0cbb);
 }
@@ -60,18 +60,15 @@ h1 {
     text-shadow: 1px 1px 2px rgba(36, 35, 35, 0.616);
 
 }
-/* Configurando os botões das opções */
+/* Configurando os botões das opções e criando interações com os botões */
 menu ul {
     list-style-type: none;
-
 }
 
 menu  > ul > li > a {
     text-decoration: none;
     padding-left: 20px;
     display: block;
-    
-    
 }
 
 span#burguer {
@@ -81,14 +78,11 @@ span#burguer {
     padding-top: 30px;
     margin-left: -1px;
     margin-top:
-   
-
 }
 
 span#burguer:hover {
     color: rgb(18, 18, 65);
     cursor: pointer;
-    
 }
 
 ul {
@@ -99,13 +93,12 @@ ul {
     padding: 16px;
     margin: 15px;
 }
+
 /* para alinhar o ícone com o menu */
 menu > ul > li > a {
-    margin-top: -110px;
-    
-    
+    margin-top: -110px;   
 }
-
+/*Dando o espaçamento necessário para ilustrar o site */
 p {
     margin-top: 70px;
 }
@@ -154,6 +147,7 @@ menu  > ul > li > a::after {
     z-index: -1;
     transition: opacity 100ms linear;
 }
+
 /* aqui é o antes e o depois */
 menu>ul>li>a:hover::before,
 menu>ul>li>a:hover::after {
@@ -165,18 +159,6 @@ menu>ul>li>a:hover {
     text-shadow: none;
 }
 
-
-
-/* VERIFICAR ESSE CÓDIGO COM MUITA ATENÇÃO
-
-@media (min-width: 600px) and (max-width: 1010px) {
-    menu  > ul > li > a {
-       
-            display: none;
-        
-
-        }
-    }
 /* Essas são as configurações do meu ícone das redes sociais */
 section#redes-sociais img  {
     width: 50px;
@@ -281,7 +263,6 @@ section#redes-sociais-2 img:hover {
     box-shadow: 5px 5px 20px;
 }
 
-
 /*Formatando fotos e videos da área hobbie */
 
 .foto > img {
@@ -294,28 +275,15 @@ section#redes-sociais-2 img:hover {
 }
 
 
-/************************************ REVER ESSE ITEM ACIMA ********************************************************/
-
 .foto > img {
-    max-width: 100%; /* As imagens terão no máximo 100% da largura do contêiner pai */
+    max-width: 100%; /* As imagens terão no máximo 100% */
     height: auto; /* A altura se ajustará automaticamente proporcionalmente à largura */
 }
 
 .foto > video {
-    max-width: 100%; /* O vídeo terá no máximo 100% da largura do contêiner pai */
+    max-width: 100%; /* O vídeo terá no máximo 100% */
     height: auto; /* A altura se ajustará automaticamente proporcionalmente à largura */
 }
-
-
-
-
-
-
-
-
-
-
-
 
 /* FORMATANDO O FORMULÁRIO DO SITE DE CONTATOS */
 
@@ -367,10 +335,7 @@ button {
 
 }
 
-
 /*TORNAR O SITE RESPONSIVO */
-
-
 
 /* Para telas menores que 600px */
 @media (max-width: 600px) {
@@ -508,12 +473,3 @@ menu {
 .mobile {
     margin-top: -1px;
 }
-
-
-
-/* tornando a página contato responsivel para dispositivos móveis.
-
-
-
-
-/*
