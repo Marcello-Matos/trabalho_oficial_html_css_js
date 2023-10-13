@@ -1,3 +1,5 @@
+// Marcello da Silva Matos RU:4259054
+
 const form = document.querySelector("#form")
 const nameInput = document.querySelector("#name")
 const emailInput = document.querySelector("#email")
@@ -31,3 +33,7 @@ function toggleMenu() {
     var items = document.getElementById("itens");
     items.classList.toggle("active");
 }
+
+
+
+
