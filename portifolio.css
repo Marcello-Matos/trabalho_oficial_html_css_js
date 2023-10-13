@@ -289,8 +289,12 @@ section#redes-sociais-2 img:hover {
 }
 
 .video-filho > h2{
-    margin-top: 80px;
+    margin-top: 10px;    
+
 }
+
+
+
 
 
 /* FORMATANDO O FORMULÁRIO DO SITE DE CONTATOS */
@@ -393,13 +397,13 @@ button {
     height: auto;
   }
 
-  .video-filho video {
+.video-filho video {
     max-width: 100%;
     height: auto;
     width: 100%;
   }
 
-  .Supino video {
+.Supino video {
     max-width: 100%;
     height: auto;
     width: 100%;
