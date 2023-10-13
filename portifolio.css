@@ -473,3 +473,30 @@ menu {
 .mobile {
     margin-top: -1px;
 }
+
+/* PÁGINA DO FORMULÁRIO*/
+
+/* Estilos para dispositivos móveis */
+@media (max-width: 768px) {
+    /* Ajuste a largura do formulário */
+    form {
+      width: 100%;
+    }
+  
+    /* Ajuste o tamanho das entradas de texto, selects e textarea */
+    input[type="text"],
+    input[type="password"],
+    select,
+    textarea {
+      width: 100%;
+      margin: 5px 0;
+      padding: 10px;
+    }
+  
+    /* Ajuste o tamanho do botão de envio */
+    button {
+      width: 100%;
+      padding: 10px;
+    }
+  }
+  
