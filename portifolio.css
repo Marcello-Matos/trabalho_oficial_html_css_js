@@ -350,7 +350,7 @@ button {
 
 /* Para telas menores que 600px */
 @media (max-width: 600px) {
-    main {
+    main  {
         width: 90%; /* Ajuste a largura do conteúdo principal para ocupar a largura da tela */
         margin: auto;
     
@@ -372,10 +372,36 @@ button {
 
         }
     }
-
-    
-
+/* torando responsivo cada página */
 #redes-sociais {
     margin-top: 100px;
 
 }
+
+.exercito {
+    max-width: 100%;
+    height: auto;
+  }
+ 
+.foto { 
+    max-width: 100%;
+    height: auto;
+}
+
+.foto img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .video-filho video {
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+  }
+
+  .Supino video {
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+  }
+  

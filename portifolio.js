@@ -26,3 +26,8 @@ function isEmailValid(email) {
     )
 }
 
+
+function toggleMenu() {
+    var items = document.getElementById("itens");
+    items.classList.toggle("active");
+}
