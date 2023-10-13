@@ -294,6 +294,26 @@ section#redes-sociais-2 img:hover {
 }
 
 
+/************************************ REVER ESSE ITEM ACIMA ********************************************************/
+
+.foto > img {
+    max-width: 100%; /* As imagens terão no máximo 100% da largura do contêiner pai */
+    height: auto; /* A altura se ajustará automaticamente proporcionalmente à largura */
+}
+
+.foto > video {
+    max-width: 100%; /* O vídeo terá no máximo 100% da largura do contêiner pai */
+    height: auto; /* A altura se ajustará automaticamente proporcionalmente à largura */
+}
+
+
+
+
+
+
+
+
+
 
 
 
