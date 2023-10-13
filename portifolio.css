@@ -405,3 +405,82 @@ button {
     width: 100%;
   }
   
+
+  /* Estilos para a imagem do menu */
+.menu-image {
+    width: 30px;
+    height: 30px;
+}
+
+/* Outros estilos */
+
+/* Estilos para a div que envolve a imagem do menu */
+menu {
+    margin-top: 40px;
+    margin-right: 30px;
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+/* ... (outros estilos) ... */
+
+@media (max-width: 600px) {
+    /* Quando a tela tem no máximo 600px de largura (dispositivos móveis) */
+
+    /* Configurar os botões em uma coluna */
+    menu ul {
+        display: block; /* Altera de "flex" para "block" */
+        text-align: center; /* Centraliza os botões */
+    }
+
+    menu ul li {
+        margin-bottom: 10px; /* Espaçamento entre os botões */
+    }
+
+    /* Outros estilos específicos para telas menores */
+}
+/* ... Outros estilos ... */
+
+@media (max-width: 600px) {
+    /* Quando a tela tem no máximo 600px de largura (dispositivos móveis) */
+
+    /* Configurar os botões em uma coluna */
+    menu ul {
+        display: block; /* Altera de "flex" para "block" */
+        text-align: center; /* Centraliza os botões */
+    }
+
+    menu ul li {
+        margin: 5px auto; /* Centraliza e define o espaçamento interno */
+        padding: 10px 15px; /* Adicione preenchimento interno para o botão */
+    }
+
+    /* Estilos adicionais para reduzir o tamanho dos botões */
+    menu ul li a {
+        font-size: 14px; /* Reduz o tamanho da fonte */
+        padding: 8px 12px;
+        margin-bottom: 45px; /* Ajusta o preenchimento do botão */
+    }
+
+    /* Outros estilos específicos para telas menores */
+}
+
+@media (max-width: 600px) {
+    /* Quando a tela tem no máximo 600px de largura (dispositivos móveis) */
+
+    /* Configurar os botões em uma coluna */
+    menu ul {
+        display: block; /* Altera de "flex" para "block" */
+        text-align: center; /* Centraliza os botões */
+    }
+
+    menu ul li {
+        margin-bottom: 45px; /* Adiciona margem inferior entre os botões */
+    }
+
+    /* Outros estilos específicos para telas menores */
+}
+
+.mobile {
+    margin-top: -1px;
+}
