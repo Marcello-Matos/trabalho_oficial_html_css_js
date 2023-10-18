@@ -498,11 +498,18 @@ menu {
       padding: 10px;
     }
   }
-  /* Ajuste dos Banners centralizados e responsiveis */
   .about {
-    max-width: 100%; 
-    height: auto; 
-    display: block; 
-    margin: 0 auto; 
+    max-width: 35%; /* Largura máxima de 35% */
+    height: auto; /* A altura ajusta automaticamente para manter a proporção */
+    display: block;
+    margin: 0 auto; /* Centralizar horizontalmente */
 }
+
+@media (max-width: 768px) {
+    .about {
+        max-width: 100%; /* Para dispositivos móveis, a largura máxima é 100% */
+    }
+}
+
+
 
